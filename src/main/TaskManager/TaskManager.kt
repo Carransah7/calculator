@@ -45,9 +45,7 @@ fun main() {
     val taskManager = TaskManager()
 
     while (true) {
-
         printOptions()
-
         when (readln()) {
             "1" -> {
                 print("\nEnter task title: ")
